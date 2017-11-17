@@ -15,7 +15,6 @@ public class sign {
 		//Reading filename entered by user, and storing text data in a string
 		System.out.println("Enter Filename: ");
 		String filename = reader.next();
-		//filename (for me) = C:\\Users\\ttayeh\\eclipse-workspace\\SE4472Assignment2Question1\\src\\Security\\sign.java
 		String fileData;
 		BufferedReader br = new BufferedReader(new FileReader(filename));
 		try {
